@@ -5,5 +5,5 @@ After the file is downloaded a prompt allows the user to enter a SHA-256 checksu
 When the update is complete it will prompt the user to restart the Livepeer service if desired or the user can choose to manually restart the service at a later time.
 
 The script installs the binaries to /usr/local/bin/ by default. If you wish to install the binaries to another directory you can modify the following section:
-# Move binaries to /usr/local/bin
+Move binaries to /usr/local/bin
 sudo mv livepeer_linux_amd64/* /usr/local/bin/
